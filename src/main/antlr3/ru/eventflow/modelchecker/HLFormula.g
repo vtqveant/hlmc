@@ -27,11 +27,11 @@ tokens {
 }
 
 @lexer::header {
-    package ru.eventflow.modelchecker;
+    package ru.eventflow.hlmc;
 }
 
 @parser::header {
-    package ru.eventflow.modelchecker;
+    package ru.eventflow.hlmc;
 }
 
 @lexer::members {

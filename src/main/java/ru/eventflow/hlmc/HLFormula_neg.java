@@ -1,4 +1,4 @@
-package ru.eventflow.modelchecker;
+package ru.eventflow.hlmc;
 
 /**
  * formula like <code>not(alpha)</code>

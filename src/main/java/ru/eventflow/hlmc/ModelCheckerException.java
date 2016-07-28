@@ -1,4 +1,4 @@
-package ru.eventflow.modelchecker;
+package ru.eventflow.hlmc;
 
 public class ModelCheckerException extends Exception {
     public ModelCheckerException() {

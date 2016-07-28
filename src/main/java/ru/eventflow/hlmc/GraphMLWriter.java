@@ -1,4 +1,4 @@
-package ru.eventflow.modelchecker;
+package ru.eventflow.hlmc;
 
 import java.io.IOException;
 import java.io.OutputStream;
