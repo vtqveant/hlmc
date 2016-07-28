@@ -8,25 +8,13 @@
     <artifactId>hlmc</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 
-    <name>Manifold :: HLMC</name>
+    <name>HLMC</name>
     <description>Hybrid Logic Model Checker</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.version>1.8</compiler.version>
     </properties>
-
-    <distributionManagement>
-        <repository>
-            <id>eventflow-releases</id>
-            <url>http://nexus.eventflow.ru/nexus/content/repositories/eventflow-releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>eventflow-snapshots</id>
-            <url>http://nexus.eventflow.ru/nexus/content/repositories/eventflow-snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
 
     <dependencies>
         <dependency>
@@ -77,5 +65,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>crplab-artifactory</id>
+            <url>https://services.crplab.ru/artifactory/nlu</url>
+        </snapshotRepository>
+        <repository>
+            <id>crplab-artifactory</id>
+            <url>https://services.crplab.ru/artifactory/nlu</url>
+        </repository>
+    </distributionManagement>
 
 </project>
